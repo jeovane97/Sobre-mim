@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "Montserrat", sans-serif;
+}
+body{display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    align-items: center;
+    background-image: url(./img/ChatGPT\ Image\ 31\ de\ ago.\ de\ 2025\,\ 05_29_15.png);
+    background-position: center;
+    background-size: cover;
+
+
+}
+img{
+    height: 22vh;
+    margin-top: 8vh;
+    border-radius: 50%;
+    border: 0.5vh solid #00a1ff;
+    position: absolute;
+    right: 10vw;
+    top: 5vh;
+
+}
+main{
+    text-align: center;
+}
+h1{
+    font-size: 44px;
+    margin-top: 200px;
+    margin-bottom: 84px;
+    color: rgb(0, 112, 112);
+}
+p{
+
+    color:rgb(59, 255, 141);
+    text-align: center;
+    max-width: 59vw;
+    height: 50vh;
+    font-size: 21px;
+    margin: 0 auto 40px auto;
+    font-weight: 500;
+    line-height: 27px;
+}
+strong{
+    color: rgb(122, 243, 0);
+    
+}
+
+footer{
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.fa-github{
+    color:rgb(46, 6, 83);
+}
+.fa-linkedin{
+    color: #00a1ff;
+}
+
+.fa-brands{
+    margin-right: 180px;
+}
+a{
+cursor: pointer;
+}
+a:hover{
+    opacity: 0.9;
+    transition: 1s;
+    transform: scale(1.1);
+}
+strong :hover{
+ color: rgb(245, 13, 13);
+
+}
