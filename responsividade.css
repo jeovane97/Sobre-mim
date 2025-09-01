@@ -52,8 +52,24 @@ p{
 margin-bottom: 79vh;
 }
 footer{
-    margin-bottom: 30px;
+    margin-bottom: 44px;
 }
+}
+@media screen and (max-width: 980px) and (max-height: 1806px){
+      main{
+        margin-top: 409px;
+      }
+    p{
+margin-bottom: 200vh;
+} 
+    img {
+        margin-top: 0vh;
+        right: 29vh;
+    }
+    footer{
+    margin-left: 100px;
+    font-size: 23px;
+    }
 }
 @media screen and (max-width: 912px) and (max-height: 1368px) {
     img{
@@ -158,18 +174,6 @@ margin-bottom: 126vh;
 } 
     img {
         margin: 16px 23px;
-    }
-    footer{
-    margin-left: 100px;
-    font-size: 23px;
-    }
-}
-@media screen and (max-width: 250px) and (max-height: 500px){
-      p{
-margin-bottom: 200vh;
-} 
-    img {
-        margin: 16px 15px;
     }
     footer{
     margin-left: 100px;
