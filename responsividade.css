@@ -55,20 +55,21 @@ footer{
     margin-bottom: 44px;
 }
 }
-@media screen and (max-width: 980px) and (max-height: 1806px){
+@media screen and (max-width: 980px) and (max-height: 1866px){
       main{
         margin-top: 409px;
       }
     p{
-margin-bottom: 200vh;
+margin-bottom: 4vh;
 } 
     img {
         margin-top: 0vh;
-        right: 29vh;
+        right: 15vh;
     }
     footer{
-    margin-left: 100px;
-    font-size: 23px;
+    margin-left: 14px;
+    font-size: 51px;
+    margin-bottom: 80-px;
     }
 }
 @media screen and (max-width: 912px) and (max-height: 1368px) {
