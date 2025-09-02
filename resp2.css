@@ -147,6 +147,7 @@ strong :hover{
     flex-direction: column;
     margin-bottom: 3em;
     gap: 19px;
+    margin-left: 3em;
   }
 
 }
