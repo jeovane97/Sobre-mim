@@ -125,8 +125,6 @@ strong :hover{
 
 }
 
-
-
 @media (max-width: 480px) {
 
   h1 {
@@ -145,10 +143,10 @@ strong :hover{
 
     flex-direction: column;
     font-size: 1.8rem;
-    margin-top: 50rem;
+    margin-top: 54rem;
     flex-direction: column;
     margin-bottom: 3em;
-    gap: 38px;
+    gap: 19px;
   }
 
 }
