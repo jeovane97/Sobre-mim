@@ -16,13 +16,14 @@ body{display: flex;
 
 }
 img{
-    height: 22vh;
-    margin-top: 8vh;
+    max-height: 220px;
+    max-width: 220px;
+    height: 100%;
+    width: 100%;
+    margin:22px auto;
     border-radius: 50%;
     border: 0.5vh solid #00a1ff;
-    position: absolute;
-    right: 10vw;
-    top: 5vh;
+  
 
 }
 main{
@@ -30,7 +31,6 @@ main{
 }
 h1{
     font-size: 44px;
-    margin-top: 200px;
     margin-bottom: 84px;
     color: rgb(0, 112, 112);
 }
@@ -38,12 +38,13 @@ p{
 
     color:rgb(59, 255, 141);
     text-align: center;
-    max-width: 59vw;
-    height: 50vh;
-    font-size: 21px;
+    max-width: 730px;
+    max-height: 602px;
+    font-size: clamp(21px, 17px, 13px);
     margin: 0 auto 40px auto;
     font-weight: 500;
-    line-height: 27px;
+    height: 100%;
+    width: 100%;
 }
 strong{
     color: rgb(122, 243, 0);
@@ -51,11 +52,12 @@ strong{
 }
 
 footer{
-    font-size: 40px;
+    font-size: 51px;
     text-align: center;
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 35px;
 }
 .fa-github{
     color:rgb(46, 6, 83);
@@ -78,4 +80,53 @@ a:hover{
 strong :hover{
  color: rgb(245, 13, 13);
 
+}
+@media screen and (max-width: 850px) {
+    body{
+        background-size: 100vw 200vh;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    img{
+        margin: 36px auto;
+    }
+    h1{
+        font-size: 34px;
+        margin-top: 0;
+    }
+
+    p{
+        font-size: clamp(17px,14px,12px);
+        font-weight: 400;
+    }
+
+   footer{
+    flex-wrap: wrap;
+    margin-bottom: 46px;
+    margin-top: 10px;
+   }
+   @media screen and (max-width:451px) {
+    body{
+    background-size: 100vw 260vh;
+    }
+footer{
+    margin-bottom: 87px;
+    margin-top: 157px;
+}
+    
+   } 
+   @media screen and (max-width:370px) {
+    body{
+   background-size: 100vw 280vh;
+    }
+   }
+   p{
+    font-size: 16px;
+   }
+   footer{
+    margin-bottom: 122px;
+    margin-top: 370px;
+   }
 }
